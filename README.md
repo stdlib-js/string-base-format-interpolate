@@ -37,6 +37,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-format-interpolate/tags). For example,
+
+```javascript
 import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.0.3-deno/mod.js';
 ```
 
@@ -84,7 +89,7 @@ Format identifier objects can have the following properties:
 ```javascript
 import formatTokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-tokenize@deno/mod.js';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@deno/mod.js';
-import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.0.3-deno/mod.js';
+import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@deno/mod.js';
 
 var tokens = formatTokenize( 'Hello %s!' );
 var out = formatInterpolate( tokens, 'World' );
