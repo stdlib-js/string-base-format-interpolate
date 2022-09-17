@@ -39,7 +39,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-formatInterpolate = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@umd/browser.js' )
+formatInterpolate = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.0.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -51,7 +51,7 @@ var formatInterpolate = require( 'path/to/vendor/umd/string-base-format-interpol
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.0.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -111,7 +111,7 @@ Format identifier objects can have the following properties:
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-tokenize@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.0.3-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
