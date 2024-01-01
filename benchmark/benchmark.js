@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var formatTokenize = require( '@stdlib/string-base-format-tokenize' );
 var isString = require( '@stdlib/assert-is-string' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
