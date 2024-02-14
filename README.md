@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-format-interpolate/tags). For example,
+
+```javascript
 import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.2.0-esm/index.mjs';
 ```
 
@@ -100,7 +105,7 @@ Format identifier objects can have the following properties:
 
 import formatTokenize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-tokenize@esm/index.mjs';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@esm/index.mjs';
-import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@v0.2.0-esm/index.mjs';
+import formatInterpolate from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-format-interpolate@esm/index.mjs';
 
 var tokens = formatTokenize( 'Hello %s!' );
 var out = formatInterpolate( tokens, 'World' );
