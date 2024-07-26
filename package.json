@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-base-format-interpolate",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Generate string from a token array by interpolating values.",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
     "@stdlib/constants-float64-ninf": "^0.2.1",
     "@stdlib/constants-float64-pi": "^0.2.1",
     "@stdlib/constants-float64-pinf": "^0.2.1",
-    "@stdlib/string-base-format-tokenize": "^0.2.1",
+    "@stdlib/string-base-format-tokenize": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
