@@ -136,6 +136,12 @@ out = formatInterpolate( tokens, 0, 'foo' );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/string-base/format-tokenize`][@stdlib/string/base/format-tokenize]</span><span class="delimiter">: </span><span class="description">tokenize a string into an array of string parts and format identifier objects.</span>
+
 </section>
 
 <!-- /.related -->
@@ -211,6 +217,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/string-base-format-interpolate/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/string-base-format-interpolate/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/string/base/format-tokenize]: https://github.com/stdlib-js/string-base-format-tokenize
+
+<!-- </related-links> -->
 
 </section>
 
