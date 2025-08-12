@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-08)
+## Unreleased (2025-08-12)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`b3c2d12`](https://github.com/stdlib-js/stdlib/commit/b3c2d120d3da72729235e034c7db01644ff70fa3) - **fix:** disable zero-padding for special values in `string/base/format-interpolate` [(#6957)](https://github.com/stdlib-js/stdlib/pull/6957) _(by Karan Anand)_
 -   [`0a8192d`](https://github.com/stdlib-js/stdlib/commit/0a8192d68506a2abf4c3e52e1af9f1510e1660b4) - **docs:** update related packages sections [(#3370)](https://github.com/stdlib-js/stdlib/pull/3370) _(by stdlib-bot)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
